@@ -48,7 +48,7 @@ async function accessSpreadsheet() {
   //     query: "studentname = Dmitrii"
   //   });
 
-  //   rows[0].del();
+  //   rows[0].del();//
 
   const cells = await promisify(sheet.getCells)({
     "min-row": 1,
